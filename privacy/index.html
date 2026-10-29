@@ -1,0 +1,733 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="index, follow" />
+  <title>개인정보 처리방침 - AI 교실</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f7f1e6;
+      --surface: #fcf8ef;
+      --ink: #1b130a;
+      --sub: #6b5d47;
+      --muted: #8e8265;
+      --rule: #d9cdb1;
+      --gold: #b8893d;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #12100b;
+        --surface: #1a1812;
+        --ink: #f1e9d6;
+        --sub: #b7ab91;
+        --muted: #7e7359;
+        --rule: #3a3327;
+        --gold: #d4a45d;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Noto Serif KR', 'RIDIBatang', serif;
+      font-weight: 400;
+      line-height: 1.85;
+      -webkit-font-smoothing: antialiased;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+    .eyebrow {
+      font-size: 11px;
+      letter-spacing: 3px;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 32px;
+      letter-spacing: -0.6px;
+      margin: 0 0 6px;
+      font-weight: 400;
+    }
+    .meta {
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: 1px;
+      margin-bottom: 32px;
+    }
+    .rule {
+      height: 0.6px;
+      background: var(--rule);
+      margin: 24px 0;
+    }
+    .rule.section {
+      margin: 72px 0 56px;
+    }
+    h2 {
+      font-size: 18px;
+      letter-spacing: -0.2px;
+      margin: 32px 0 8px;
+      font-weight: 700;
+    }
+    h2 .num {
+      color: var(--gold);
+      font-weight: 400;
+      margin-right: 8px;
+    }
+    p, li {
+      font-size: 15.5px;
+      color: var(--ink);
+      margin: 0 0 12px;
+    }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    .callout {
+      background: var(--surface);
+      border-left: 2px solid var(--gold);
+      padding: 14px 18px;
+      margin: 0 0 8px;
+    }
+    .callout p { margin: 0 0 6px; }
+    .callout p:last-child { margin: 0; }
+    .table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin: 12px 0 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      table-layout: fixed;
+    }
+    td a { word-break: break-all; }
+    th, td {
+      border-bottom: 0.6px solid var(--rule);
+      padding: 10px 8px;
+      text-align: left;
+      vertical-align: top;
+      word-break: keep-all;
+      overflow-wrap: break-word;
+      line-height: 1.5;
+    }
+    th {
+      color: var(--muted);
+      font-weight: 400;
+      letter-spacing: 1px;
+      font-size: 11px;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    @media (max-width: 480px) {
+      table { font-size: 13px; }
+      th, td { padding: 8px 6px; }
+    }
+    a {
+      color: var(--gold);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .footer {
+      margin-top: 56px;
+      padding-top: 24px;
+      border-top: 0.6px solid var(--rule);
+      font-size: 12px;
+      color: var(--muted);
+      text-align: center;
+      letter-spacing: 1px;
+      line-height: 1.6;
+    }
+    .footer .dot { display: inline; }
+    .footer .mobile-br { display: none; }
+    @media (max-width: 480px) {
+      .footer .dot { display: none; }
+      .footer .mobile-br { display: inline; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">Privacy Policy</div>
+    <h1>개인정보 처리방침</h1>
+    <div class="meta">AI 교실 (AI Classroom) · com.hasegi.aiclassroom<br />최종 개정 2026-10-05 / 시행 2026-10-29 · v1.0<br /><a href="#en">English version below</a></div>
+
+    <p>
+      Hasegi Inc.(이하 "운영자")는 모바일 애플리케이션 <strong>AI 교실</strong>(이하 "서비스")을 운영하며,
+      이용자의 개인정보를 소중히 여기고 「개인정보 보호법」, 「인공지능 발전과 신뢰 기반 조성 등에 관한 기본법」을 비롯한
+      관련 법령을 준수합니다. 본 처리방침은 서비스가 어떤 정보를 어디에서 처리하고 어떻게 보호하는지 설명합니다.
+    </p>
+
+    <div class="callout">
+      <p><strong>핵심 요약</strong></p>
+      <p>서비스는 회원가입·로그인 없이 모든 기능을 이용할 수 있습니다. 학습 진도·설정·튜터 대화 기록은 <strong>이용자의 기기에만</strong> 저장되며, 운영자는 이를 보관하지 않습니다. AI 튜터에게 질문하거나 AI 채점을 요청하면 <strong>질문(또는 제출한 글)과 현재 레슨 요약, 설정한 호칭(영어 화면에서는 입력한 이름)</strong>이 운영자의 중계 서버(Cloudflare)를 거쳐 Anthropic(Claude)에 전달되어 답변이 만들어집니다. 운영자는 질문·답변 본문을 서버에 저장하지 않으며 모델 학습에 사용하지 않습니다. 서버에는 한도 계산과 크레딧 잔액을 위한 <strong>무작위 설치 ID</strong>와 사용량·크레딧 구매 기록이 남습니다. 구매한 AI 크레딧을 재설치·기기 변경 뒤에도 이어 받으려는 이용자는 <strong>선택</strong>으로 Apple 또는 Google 계정으로 로그인할 수 있으며, 이때 서버는 계정 식별값을 알아볼 수 없게 바꾼 값(해시)만 더 저장하고 이메일과 이름은 저장하지 않습니다. 무료 이용 시 Google AdMob 광고가 표시되어 광고 식별자가 Google과 공유되며, 관련 규정이 동의를 요구하는 지역에서는 광고에 앞서 광고 개인정보 동의 창이 표시될 수 있습니다(§01 「광고 개인정보 동의」).</p>
+    </div>
+
+    <div class="callout">
+      <p><strong>생성형 인공지능 이용 고지</strong></p>
+      <p>서비스의 AI 튜터 「유니」의 답변(깊이 생각 포함)과 AI 라이브 채점은 <strong>생성형 인공지능(Anthropic Claude)</strong>이 만듭니다. 레슨 내레이션과 유니의 목소리는 AI 음성으로 합성한 것입니다. AI가 만든 답변은 화면에 「AI 생성」으로 표시되며, 사실과 다르거나 부정확할 수 있으므로 중요한 결정 전에는 반드시 다른 자료로 확인하시기 바랍니다. 각 답변 아래의 <strong>신고</strong> 버튼 또는 <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a>으로 부적절한 답변을 알려 주시면 확인 후 조치합니다.</p>
+    </div>
+
+    <div class="rule"></div>
+
+    <h2><span class="num">01</span>수집하는 정보 항목</h2>
+    <p>서비스는 전화번호·주소·위치·연락처·사진을 수집하지 않습니다. 이름은 이용자가 호칭(영어 화면에서는 이름)으로 직접 입력한 경우에 아래와 같이 처리됩니다. 앱은 이메일 주소를 묻지 않습니다. 이메일 주소가 운영자에게 닿을 수 있는 경우는 둘입니다. 이용자가 문의·신고 메일을 직접 보낸 경우, 그리고 선택 로그인이나 웹 계정 삭제에서 Google로 로그인할 때 Google이 로그인 결과와 서버로 전송되는 로그인 토큰에 이메일과 이름을 함께 담아 보낼 수 있는 경우입니다. 뒤의 값은 본인 확인 과정에서 거쳐 갈 뿐이며, 앱과 웹 계정 삭제 페이지는 읽지 않고 서버는 읽지도 저장하지도 기록하지도 않습니다. 다음의 제한된 정보만 처리됩니다.</p>
+    <div class="table-wrap"><table>
+      <colgroup>
+        <col style="width:28%" />
+        <col style="width:42%" />
+        <col style="width:30%" />
+      </colgroup>
+      <thead>
+        <tr><th>항목</th><th>내용</th><th>저장 위치</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>학습 기록</td>
+          <td>레슨·의뢰·퀴즈 진도와 점수, 스킬 카드·배지, 스트릭, 별(학습 재화), 복습 일정, 메모·프롬프트 노트, 수료증 발급 기록(수료증에 적은 이름 포함)</td>
+          <td>기기 내부 저장소 (SQLite) - 외부 전송 없음</td>
+        </tr>
+        <tr>
+          <td>설정</td>
+          <td>글자 크기, 시니어 모드, 화면 모드, 알림 시각, 소리·자막 옵션, 캠퍼스 이름, 다운로드한 콘텐츠 팩 목록, Pro 구매 상태(기기의 표시용 사본 - 구매 확인을 위해 서버로 전송되는 정보는 아래 「구매 정보」)</td>
+          <td>기기 내부 저장소 - 외부 전송 없음</td>
+        </tr>
+        <tr>
+          <td>호칭</td>
+          <td>앱과 AI 튜터가 이용자를 부르는 말. 기본값은 「회원님」이며, 다른 호칭을 고르거나 이름(10자 이내)을 직접 입력할 수 있음. 영어 화면에서는 호칭을 쓰지 않고, 이름(선택, 20자 이내)만 입력할 수 있음</td>
+          <td>기기 내부 저장소. AI 튜터에게 질문할 때에만 질문과 함께 전달(영어 화면에서는 입력한 이름이 있을 때만) - 서버에 저장 없음</td>
+        </tr>
+        <tr>
+          <td>AI 튜터 질문·레슨 맥락</td>
+          <td>이용자가 입력한 질문(1,000자 이내), 현재 레슨의 제목·요약·용어와 보고 있는 화면의 글(자동 첨부, 4,000자 이내 - 영어 레슨은 6,000자 이내), 최근 대화 최대 6턴, 호칭(영어 화면에서는 입력한 이름), 읽고 있는 레슨의 언어를 나타내는 값(한국어 또는 영어)</td>
+          <td>답변 생성 중에만 Cloudflare 중계 서버를 거쳐 Anthropic에 전달 - 서버에 본문 저장 없음. 대화 기록은 기기에만 보관</td>
+        </tr>
+        <tr>
+          <td>AI 채점 제출문</td>
+          <td>의뢰·라이브 실습실에서 「AI 라이브 채점」을 고른 경우, 이용자가 쓴 제출문(1,500자 이내 - 영어 레슨은 3,000자 이내)과 그 의뢰의 채점 기준·예시 답안, 읽고 있는 레슨의 언어를 나타내는 값(한국어 또는 영어)</td>
+          <td>채점 중에만 Cloudflare 중계 서버를 거쳐 Anthropic에 전달 - 서버에 본문 저장 없음</td>
+        </tr>
+        <tr>
+          <td>설치 정보</td>
+          <td>무작위 설치 ID와 서명(HMAC) 토큰, 플랫폼(iOS / Android), 앱 버전, 발급 시각, 마지막 발급일, 설치 키의 해시값(설치 키는 앱이 기기에서 만든 무작위 값이며 서버에는 원문이 아닌 해시값만 보관). 접속 국가와 IP 주소는 설치 정보에 저장하지 않음. 이름·이메일·광고 식별자·기기 고유번호와 연결되지 않음(선택 로그인을 이용한 경우에만 아래 계정 정보의 해시값과 연결됨)</td>
+          <td>기기 보안 저장소(iOS Keychain / Android 암호화 저장소) 및 Cloudflare 서버 (D1)</td>
+        </tr>
+        <tr>
+          <td>계정 정보 (선택 로그인을 이용한 경우만)</td>
+          <td>로그인 제공자(iOS는 Apple, Android는 Google)가 정한 계정 식별값을 알아볼 수 없게 바꾼 값(해시), 서버가 계정마다 만든 무작위 계정 번호, 제공자 구분(Apple / Google), 계정을 만든 시각, 어느 설치가 그 계정에 묶였는지와 묶인 시각. 로그인할 때 제공자가 서명한 로그인 토큰이 본인 확인을 위해 서버로 전송되지만, 토큰과 인증 코드는 저장하지 않음. 이메일과 이름은 쓰지 않고 저장하지 않음</td>
+          <td>Cloudflare 서버 (D1). 기기에는 로그인 상태 사본(계정에 묶였는지, 제공자, 묶인 시각, 서버에 켜진 제공자, 마지막 확인 시각)만 보관하고 토큰과 계정 식별값은 두지 않음</td>
+        </tr>
+        <tr>
+          <td>사용량·비용 기록</td>
+          <td>설치 ID별 무료 AI 체험 사용 횟수와 보상형 광고로 받은 추가 횟수, 호출마다 설치 ID 앞 8자리·모델명·토큰 수·비용·응답 시간·상태 코드. 선택 로그인·로그아웃·계정 삭제 요청은 설치 ID 앞 8자리(웹 계정 삭제 요청에는 없음)·요청 종류·상태 코드·실패 사유만 기록. 운영자가 남기는 이 기록에는 질문·답변 본문, IP 주소, 로그인 토큰, 계정 식별값, 이메일을 담지 않음(Cloudflare가 자동으로 남기는 접속 기록은 아래 「접속 IP 주소」 행)</td>
+          <td>Cloudflare 서버 (D1 / Workers 로그)</td>
+        </tr>
+        <tr>
+          <td>접속 IP 주소</td>
+          <td>운영자는 자동화 호출·남용을 막는 요청 빈도 제한에만 사용. IP 주소 원문은 운영자의 데이터베이스에 저장하지 않고 운영자가 남기는 호출 기록에도 담지 않으며, 설치 정보 발급 횟수와 웹 계정 삭제 요청 횟수를 제한하기 위해 되돌릴 수 없게 변환한 값(해시)만 일시 보관(IPv6 주소는 앞 64비트만 사용). 이와 별도로 Cloudflare가 서버 요청마다 자동으로 남기는 접속 기록(요청 주소·시각 등이며, 접속 IP 주소와 접속 국가가 포함될 수 있음)이 Cloudflare Workers 로그에 남을 수 있음</td>
+          <td>Cloudflare 서버 - 빈도 제한 카운터로 일시 보관(최대 2시간). 자동 접속 기록은 Workers 로그의 보관 기간 동안(§03)</td>
+        </tr>
+        <tr>
+          <td>AI 크레딧 원장</td>
+          <td>설치 ID별(선택 로그인을 이용한 경우 계정별) 크레딧 적립·사용·지급 내역, 크레딧 구매와 Pro(구독·평생권) 구매의 상품 ID·검증 시각·스토어 거래 식별값(Apple transactionId·originalTransactionId / Google purchaseToken), Pro 구독의 만료 시각</td>
+          <td>Cloudflare 서버 (D1). 잔액 사본과 검증 대기 중인 구매 정보는 기기에도 보관</td>
+        </tr>
+        <tr>
+          <td>구매 정보</td>
+          <td>Pro 구독·평생권 구매 상태. AI 크레딧 팩을 구매하거나 Pro(구독·평생권)를 구매·복원하면 스토어가 발급한 거래 정보(서명된 영수증 또는 구매 토큰, 거래 식별값 포함)가 검증을 위해 운영자 서버로 전송됨. Pro 거래 정보는 매월 AI 크레딧 지급을 위한 구매 확인에 쓰이며, Google Play 구독은 지급 전에 서버가 Google Play에 구독 상태를 다시 확인함. 카드 번호 등 결제 수단 정보는 운영자에게 전달되지 않음</td>
+          <td>기기 내부 저장소 / Apple · Google 스토어 / Cloudflare 서버(크레딧·Pro 구매 검증 기록)</td>
+        </tr>
+        <tr>
+          <td>직접 입력한 API 키 (BYOK, 선택)</td>
+          <td>고급 단계에서 이용자가 자신의 Anthropic API 키를 등록한 경우, 그 키</td>
+          <td>기기 보안 저장소에만 보관 - 운영자 서버로 전송 없음</td>
+        </tr>
+        <tr>
+          <td>문의·신고 이메일</td>
+          <td>답변의 신고 버튼을 누르면 메일 앱이 열리고 해당 질문(500자 이내)·답변(1,500자 이내)·대화 참조 번호가 본문에 채워짐. 이용자가 보내기를 누른 경우에만 발신 이메일 주소와 함께 전달</td>
+          <td>운영자의 문의 메일함 (Gmail)</td>
+        </tr>
+        <tr>
+          <td>광고 식별자 (IDFA / AAID)</td>
+          <td>광고 노출(맞춤형 광고 포함), 빈도 제한 및 부정 클릭 방지</td>
+          <td>Google AdMob (외부)</td>
+        </tr>
+        <tr>
+          <td>광고 개인정보 동의 상태</td>
+          <td>무료 이용 시 앱을 실행할 때마다 Google의 동의 관리 도구(User Messaging Platform)가 광고 개인정보 동의가 필요한 지역인지와 이전에 고른 동의가 유효한지를 Google에 확인함. 동의 창이 표시되는 지역에서는 이용자가 고른 동의 내용. Pro 이용 시에는 확인하지 않음</td>
+          <td>Google (외부). 고른 내용은 기기에도 저장</td>
+        </tr>
+        <tr>
+          <td>앱 사용 진단 정보</td>
+          <td>비정상 종료 기록, 기기 모델명, OS 버전</td>
+          <td>Apple / Google 플랫폼 (옵트인 시)</td>
+        </tr>
+      </tbody>
+    </table></div>
+
+    <p><strong>선택 로그인(크레딧 이어 받기).</strong> 서비스는 회원가입·로그인 없이 모든 기능을 이용할 수 있으며, 로그인하지 않은 이용자는 이름이나 이메일이 아니라 무작위 설치 ID로만 구분됩니다. 로그인은 구매한 AI 크레딧의 잔액을 계정에 묶어, 앱을 다시 설치하거나 기기를 바꿔도 이어 받을 수 있게 하는 한 가지 목적으로만 제공되는 <strong>선택 기능</strong>입니다. 앱 [설정]에 「크레딧 이어 받기」 구역이 표시되는 경우에만 이용할 수 있으며(운영자가 이 기능을 켜 두지 않은 버전·기간에는 새로 로그인할 수 없습니다), iOS에서는 「Apple로 로그인」, Android에서는 「Google 계정으로 로그인」을 이용합니다. 앱이 로그인 창을 스스로 띄우지 않으며, 이용자가 로그인 단추를 누른 경우에만 진행됩니다.</p>
+    <p>로그인하면 Apple 또는 Google의 로그인 창을 거쳐 그 회사가 서명한 로그인 토큰이 운영자의 서버(Cloudflare)로 전송됩니다. 서버는 토큰의 서명과 발급 대상을 확인한 뒤, 토큰 안의 계정 식별값을 <strong>알아볼 수 없게 바꾼 값(해시)</strong>으로만 저장하고 어느 설치가 언제 그 계정에 묶였는지를 함께 기록합니다. 토큰과 인증 코드는 확인에만 쓰고 저장하지 않습니다. <strong>이메일과 이름은 쓰지 않고 저장하지 않습니다.</strong> Apple 로그인에서는 앱이 이메일·이름을 요청하지 않습니다. Google은 로그인 결과에 이메일·이름·프로필 사진 주소를 함께 담아 앱에 넘기고 서버로 전송되는 로그인 토큰 안에도 이메일·이름이 들어 있을 수 있으나, 앱은 그 값을 읽지 않고 버리며 서버는 읽지도 저장하지도 기록하지도 않습니다. Apple·Google의 로그인 창에서 이루어지는 정보 처리는 각 회사의 개인정보 정책을 따릅니다.</p>
+    <p>로그인하면 그 기기의 크레딧 잔액이 계정으로 옮겨지고, 그 뒤의 구매·지급·사용 내역이 계정에 쌓이며, 같은 계정으로 로그인한 기기는 같은 잔액을 봅니다. 「이 기기에서 로그아웃」을 하면 그 기기만 계정에서 풀리고 잔액은 계정에 남습니다. 이 기능이 들어 있는 버전은 설정 화면이나 결제 화면을 열 때 기능이 켜져 있는지와 이 기기가 계정에 묶여 있는지를 서버에 확인하며, 이 확인에는 설치 토큰만 전송되고 계정 정보는 전송되지 않습니다. 계정을 삭제하는 방법과 삭제 뒤에 남는 정보는 §03과 §05에 적었습니다.</p>
+    <p><strong>호칭과 이름.</strong> 한국어 화면에서 앱은 이용자를 기본 호칭 「회원님」으로 부릅니다. 온보딩 또는 앱 [설정 - 호칭·캠퍼스]에서 다른 호칭(선생님)을 고르거나 이름을 직접 입력할 수 있습니다. 영어 화면에서는 호칭을 쓰지 않으며, 같은 자리에서 이름을 선택으로 입력할 수 있고 입력하지 않으면 이름 없이 진행됩니다. 호칭·이름과 캠퍼스 이름은 기기에만 저장됩니다. 다만 AI 튜터에게 질문할 때에는 유니가 같은 호칭으로 부르도록 호칭(이름을 입력한 경우 「님」을 붙인 꼴로, 12자 이내)이, 영어 화면에서는 입력한 이름이 있을 때에만 그 이름(서버가 받는 길이는 24자 이내)이 질문과 함께 전달되며, 서버에는 저장되지 않습니다. 이름이 전달되는 것을 원하지 않으면 이름 대신 「회원님」 같은 호칭을 고르고, 영어 화면에서는 이름 칸을 비워 두시기 바랍니다.</p>
+    <p><strong>AI 튜터와 AI 채점.</strong> 이용자가 튜터에게 질문을 보내면, 질문 내용과 현재 레슨의 제목·요약·용어·보고 있는 화면의 글 같은 맥락 정보, 그리고 호칭(영어 화면에서는 입력한 이름)이 운영자의 중계 서버(Cloudflare Workers)를 거쳐 Anthropic, PBC의 Claude 모델에 전달되고, 생성된 답변이 실시간으로 돌아옵니다. 의뢰에서 「AI 라이브 채점」을 고르면 이용자가 쓴 제출문과 채점 기준이 같은 경로로 전달됩니다. 두 요청에는 답변과 채점의 언어를 정하기 위해 읽고 있는 레슨의 언어(한국어 또는 영어)를 나타내는 값이 함께 실립니다. 중계 서버는 설치 토큰 검증, 요청 빈도 제한, 무료 체험 횟수, 크레딧 잔액, 비용 상한 확인만 수행하며 질문·제출문·답변 본문을 저장하지 않습니다. 운영자는 이용자의 질문이나 답변을 AI 모델 학습에 사용하지 않으며, Anthropic에 전달된 내용의 처리는 Anthropic의 상업용 API 약관과 개인정보 정책을 따릅니다. 대화 기록은 이용자의 기기에만 남고, 앱 [설정 - 튜터·BYOK - 튜터 「유니」]에서 대화별로 삭제할 수 있습니다. 질문에 이름·전화번호·주민등록번호·건강 상태 등 개인정보를 입력하지 마시기 바랍니다. 앱과 서버는 주민등록번호·카드 번호·전화번호·이메일 주소·비밀번호처럼 보이는 내용이 있으면 질문을 AI에 보내지 않고 안내문을 보여 주지만, 이 필터는 완전하지 않습니다.</p>
+    <p><strong>직접 입력한 API 키(BYOK).</strong> 고급 단계에서 이용자가 자신의 Anthropic API 키를 등록하면 앱이 Anthropic에 직접 요청을 보냅니다. 키와 요청 내용(질문·레슨 맥락·호칭 또는 이름)은 운영자 서버를 거치지 않으며, 키는 기기의 보안 저장소에만 보관됩니다. 이때 데이터 처리는 Anthropic의 약관과 개인정보 정책을 따릅니다.</p>
+    <p><strong>설치 정보.</strong> AI 튜터·AI 채점을 처음 이용하거나 구매를 확인할 때, 또는 선택 로그인 기능이 들어 있는 버전에서 설정 화면이나 결제 화면을 처음 열 때 중계 서버가 무작위 설치 ID와 서명 토큰을 발급하고, 앱은 이를 iOS Keychain 또는 Android 암호화 저장소에 보관합니다. 발급 요청에는 플랫폼(iOS / Android)과 앱 버전, 그리고 앱이 기기에서 만든 무작위 설치 키만 담기며, 서버는 여기에 발급 시각과 설치 키의 해시값을 함께 기록합니다(설치 키는 같은 설치임을 다시 확인하는 데만 쓰이고, 접속 국가와 IP 주소는 설치 정보에 기록하지 않습니다). 설치 정보는 무료 체험 횟수 계산, 남용 방지, 크레딧 잔액 관리에만 사용되며 이름·이메일·광고 식별자·기기 고유번호와 연결되지 않습니다(선택 로그인을 이용한 경우에만 계정 식별값의 해시와 연결됩니다). iOS에서는 앱을 지워도 설치 ID가 기기의 Keychain에 남아 같은 기기에 다시 설치하면 이어지고, Android에서는 앱을 삭제하거나 앱 데이터를 지우면 함께 사라집니다. 로그인하지 않은 경우, Android에서 앱을 삭제하거나 어느 플랫폼에서든 기기를 바꾸거나 초기화하면 남은 AI 크레딧을 다시 불러올 수 없습니다. 선택 로그인으로 잔액을 계정에 묶어 둔 경우에는 같은 로그인 제공자(Apple 또는 Google)로 다시 로그인해 이어 받을 수 있습니다.</p>
+    <p><strong>마이크.</strong> 현재 버전은 마이크와 음성 인식 권한을 사용하지 않습니다.</p>
+    <p><strong>콘텐츠 팩 다운로드.</strong> 레슨 이미지·음성 등 콘텐츠 팩과 그 목록은 운영자의 Cloudflare 서버(Workers 정적 자산)에서 내려받습니다. 이 요청에는 IP 주소 같은 통상적인 접속 정보만 포함되고 학습 기록이나 설치 ID는 포함되지 않습니다.</p>
+    <p><strong>외부 링크와 공유.</strong> 레슨의 「지금 실제 앱 열기」, 자료실의 출처 링크는 이용자가 누를 때 기기의 브라우저나 해당 앱으로 이동하며, 이동한 뒤의 정보 처리는 그 서비스의 정책을 따릅니다. 수료증·환각 탐정 결과의 공유와 백업 파일 내보내기는 이용자가 직접 고른 앱으로만 전달됩니다.</p>
+    <p><strong>광고.</strong> 무료 이용 시 Google AdMob 광고(배너·전면·앱 오픈·보상형·네이티브)가 표시되며, AdMob SDK가 광고 식별자를 수집해 Google과 공유합니다. iOS에서는 광고 식별자 사용 동의를 묻는 앱 추적 투명성(App Tracking Transparency) 시스템 창이 표시되며, 거부해도 일반 광고는 그대로 표시됩니다. 레슨·의뢰·퀴즈·튜터 진행 중에는 광고를 표시하지 않으며, Pro 구독 또는 평생권을 구매하면 광고가 표시되지 않습니다. Pro 상태로 앱을 시작하면 광고 SDK를 켜지 않고, 아래의 광고 개인정보 동의 확인과 추적 동의도 하지 않습니다.</p>
+    <p><strong>광고 개인정보 동의.</strong> 무료 이용자가 앱을 실행하면 광고를 준비하기에 앞서 Google의 동의 관리 도구(User Messaging Platform)가 이 기기가 광고 개인정보 동의가 필요한 지역에 있는지와 이전에 고른 동의가 아직 유효한지를 Google에 확인합니다. 이 확인은 앱을 실행할 때마다 이루어지고, 앱의 광고 앱 ID가 쓰이며, 그 밖에 이 도구가 Google에 보내는 정보와 그 처리는 Google의 정책을 따릅니다. 유럽경제지역(EEA)·영국·스위스처럼 관련 규정이 동의를 요구하는 지역에서는, 운영자가 그 지역용 동의 창을 게시해 둔 경우 Google이 제공하는 동의 창이 표시되고, 고른 내용은 Google에 전달되며 기기에도 저장됩니다. 동의하지 않음을 골라도 앱은 그대로 이용할 수 있고 광고는 표시될 수 있으며, 이때 어떤 광고가 표시되는지는 고른 내용에 따라 Google이 정합니다. 미국 일부 주처럼 관련 규정이 광고 개인정보에 관한 선택권을 요구하는 지역에서도, 운영자가 그 지역용 안내를 게시해 둔 경우 Google이 제공하는 안내 창이 표시될 수 있습니다. 앱 [설정 - 정보 - 광고 개인정보 설정] 메뉴는 Google의 동의 관리 도구가 다시 고를 수 있어야 하는 지역이라고 알려 준 경우에 무료 이용자에게 표시되며, 표시되는 경우 이 메뉴에서 언제든 다시 고를 수 있습니다. 대한민국처럼 동의 창이 필요하지 않은 지역에서는 창이 표시되지 않고 이 메뉴도 보이지 않습니다. 순서는 광고 개인정보 동의 확인(필요한 지역에서는 동의 창) → iOS의 앱 추적 투명성 창 → 광고 SDK 시작입니다. 동의 상태를 확인하지 못한 실행에서는 기기의 시간대와 지역 설정을 기기 안에서만 참고해, 동의가 필요한 지역일 수 있으면 그 실행 동안 광고 SDK를 켜지 않고 추적 창도 띄우지 않습니다.</p>
+    <p><strong>이용 연령.</strong> 서비스는 만 13세 미만 어린이를 대상으로 하지 않습니다(스토어에 표시되는 연령 등급은 각 스토어의 산정을 따릅니다). 앱은 이용자의 나이나 생년월일을 묻거나 저장하지 않습니다. 만 14세 미만 이용자는 법정대리인의 동의를 받은 뒤 이용해야 하며, 운영자는 만 14세 미만 아동의 개인정보가 동의 없이 수집된 사실을 알게 되면 지체 없이 삭제합니다.</p>
+
+    <h2><span class="num">02</span>이용 목적</h2>
+    <ul>
+      <li>학습 기록·설정 - 진도 저장, 복습 일정, 통계와 보상 표시, 수료증 발급, 다음 실행에서 같은 설정 유지</li>
+      <li>호칭·이름 - 앱 화면과 AI 튜터 답변에서 이용자를 부르는 말로 사용</li>
+      <li>AI 튜터 질문·레슨 맥락, AI 채점 제출문 - 질문에 대한 AI 답변 생성, 의뢰 제출문의 AI 채점</li>
+      <li>설치 정보·사용량 기록·접속 IP 주소 - 무료 체험 횟수 적용, 자동화 호출·남용 방지, 서비스 전체 비용 상한 관리</li>
+      <li>크레딧 원장·구매 정보 - 구매한 크레딧 적립과 차감, Pro 구매 확인과 매월 AI 크레딧 지급, 중복 적립 방지, Pro 혜택 제공과 구매 복원</li>
+      <li>계정 정보(선택 로그인) - 구매한 AI 크레딧 잔액을 계정에 묶어 재설치·기기 변경 뒤에도 이어 받게 함, 계정 삭제 요청 때의 본인 확인</li>
+      <li>직접 입력한 API 키 - 이용자 본인 계정으로 Anthropic 직접 호출 (기기 내 보관)</li>
+      <li>문의·신고 이메일 - 신고된 답변 확인과 회신, 문의 응대</li>
+      <li>광고 식별자 - 모바일 광고 노출(맞춤형 광고 포함), 빈도 제한 및 부정 클릭 방지 (Pro·평생권 구매 시 광고 미표시)</li>
+      <li>광고 개인정보 동의 상태 - 관련 규정이 요구하는 지역에서 광고 개인정보 동의를 받고, 고른 내용에 맞게 광고를 요청</li>
+      <li>앱 사용 진단 - 안정성 개선 및 오류 수정</li>
+    </ul>
+    <p>운영자는 위 정보를 이용자 개인을 식별하거나 프로파일링하는 목적으로 사용하지 않으며, 별도의 분석(애널리틱스) SDK를 사용하지 않습니다. 이용자의 질문·답변·학습 기록은 AI 모델 학습이나 광고 목적에 사용되지 않습니다.</p>
+
+    <h2><span class="num">03</span>보유 및 이용 기간</h2>
+    <ul>
+      <li>기기 내부 저장 정보(학습 기록, 설정, 호칭, 튜터 대화 기록, 콘텐츠 팩)는 이용자가 앱에서 삭제하거나 앱을 제거할 때까지 기기에 보관되며, 운영자가 보유하는 사본은 없습니다. 이용자가 직접 만든 백업 파일은 이용자가 관리합니다.</li>
+      <li>기기 보안 저장소의 설치 ID·토큰·설치 키와 직접 입력한 API 키는 Android에서는 앱 제거와 함께 삭제됩니다. iOS에서는 앱을 제거해도 기기의 Keychain에 남을 수 있으므로, API 키는 앱 제거 전에 앱 [설정 - 튜터·BYOK - 내 키 넣기]에서 지우시기 바랍니다.</li>
+      <li>AI 튜터 질문·AI 채점 제출문·답변 본문은 답변 생성이 끝나면 중계 서버에 남지 않습니다. Anthropic은 자사 정책에 따라 남용 탐지 등의 목적으로 제한된 기간 입력을 보관할 수 있습니다.</li>
+      <li>무료 체험 사용 횟수(설치 ID별)는 설치 정보와 같이 서비스를 제공하는 동안 보관하며, 삭제 요청을 받거나 서비스를 종료하면 삭제합니다. 요청 빈도 제한 카운터(접속 IP 주소를 변환한 값·설치 ID 기준)는 최대 2시간 뒤 자동 삭제됩니다. 호출별 기록(설치 ID 앞 8자리, 모델명, 토큰 수, 비용, 응답 시간, 상태 코드)과 선택 로그인·계정 삭제 요청의 처리 기록(요청 종류, 상태 코드, 실패 사유), 그리고 Cloudflare가 서버 요청마다 자동으로 남기는 접속 기록(§01 표 「접속 IP 주소」)은 Cloudflare Workers 로그의 보관 기간(현재 Cloudflare 요금제에 따라 3일 또는 7일) 동안만 남으며, 일별 합계는 개별 설치와 무관한 형태로 비용 관리를 위해 보관합니다.</li>
+      <li>설치 정보(설치 ID, 플랫폼, 앱 버전, 발급 시각, 마지막 발급일, 설치 키의 해시값)는 서비스를 제공하는 동안 보관하며, 삭제 요청을 받거나 서비스를 종료하면 삭제합니다.</li>
+      <li>계정 정보(계정 식별값의 해시, 계정과 설치의 묶음)는 이용자가 계정을 삭제할 때까지 보관합니다. 계정을 삭제하면 서버에서 이 정보를 실제로 지웁니다(비활성화가 아닙니다). 로그인 토큰과 인증 코드는 확인이 끝나면 서버에 남지 않습니다.</li>
+      <li>크레딧 원장과 스토어 거래 식별값은 「전자상거래 등에서의 소비자보호에 관한 법률」에 따라 대금 결제 및 재화 공급에 관한 기록으로 <strong>5년</strong>간 보관한 뒤 파기합니다. 설치 ID가 기기에서 사라져도 이 기록은 거래 증빙으로 남으며, 이름·이메일 등 이용자를 식별할 정보는 포함하지 않습니다. 선택 로그인으로 만든 계정을 삭제한 경우에도 크레딧을 사고 쓴 기록은 계정과의 연결을 끊은 채 같은 법률에 따라 5년간 보관한 뒤 지웁니다. 보관 기간이 지난 기록은 서버가 하루 한 번 자동으로 정리합니다. 크레딧 원장은 5년이 지난 내역을 지우고 그때까지의 합계 한 줄만 남기며(남은 크레딧은 변하지 않습니다), 구매 검증 기록은 같은 구매가 다시 적립되는 것을 막기 위해 스토어 거래 식별값을 알아볼 수 없게 바꾼 값(해시)만 남기고 설치 ID·상품·수량·시각은 지웁니다. 끝난 Pro 구독의 기록은 마지막 확인으로부터 5년이 지나면 지웁니다.</li>
+      <li>문의·신고 이메일은 확인과 회신에 필요한 기간 동안 운영자의 메일함에 보관하며, 삭제를 요청하시면 삭제합니다.</li>
+      <li>광고 식별자와 광고 개인정보 동의 내용은 Google의 정책에 따라 처리됩니다. 이용자는 OS 설정에서 언제든 광고 식별자를 재설정하거나 맞춤형 광고를 끌 수 있고, 앱 [설정 - 정보 - 광고 개인정보 설정] 메뉴가 표시되는 경우 그 메뉴에서 다시 고를 수 있습니다.</li>
+      <li>구매 기록은 Apple App Store / Google Play가 각 스토어 정책에 따라 보관합니다.</li>
+      <li>비정상 종료 기록은 Apple App Store Connect / Google Play Console 정책에 따라 90일 ~ 2년간 보관됩니다.</li>
+      <li>파기(삭제) 방법 - 서버(Cloudflare D1)에 있는 기록은 해당 행을 지우는 방식으로 삭제합니다. 계정 삭제, 요청 빈도 제한 카운터의 정리, 보관 기간이 지난 거래 기록의 정리는 서버가 처리하고, 메일로 받은 삭제 요청은 운영자가 직접 처리합니다. 문의·신고 메일은 운영자의 메일함에서 지웁니다.</li>
+    </ul>
+
+    <h2><span class="num">04</span>제3자 제공 및 처리 위탁</h2>
+    <p>운영자는 이 처리방침에 적은 경우 외에는 이용자의 개인정보를 별도 동의 없이 제3자에게 제공하지 않습니다. 무료 이용 시 광고를 위해 AdMob SDK가 광고 식별자를 수집해 Google과 공유하는 것은 §01 「광고」에 적었으며, 그 밖에 다음 서비스에 일부 정보 처리를 위탁합니다. 학습 기록과 설정은 어느 수탁자에게도 전달되지 않습니다. 튜터 대화 기록은 AI 튜터에게 질문할 때 최근 대화 최대 6턴만 답변 생성을 위해 Cloudflare 중계 서버를 거쳐 Anthropic에 전달되며, 직접 입력한 API 키는 그 키의 발급자인 Anthropic을 직접 호출하는 데에만 쓰입니다.</p>
+    <div class="table-wrap"><table>
+      <colgroup>
+        <col style="width:30%" />
+        <col style="width:48%" />
+        <col style="width:22%" />
+      </colgroup>
+      <thead>
+        <tr><th>수탁자</th><th>위탁 내용</th><th>관련 정책</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Cloudflare, Inc.</td>
+          <td>AI 튜터·AI 채점 중계 서버 운영(Workers), 설치 정보·무료 체험 횟수·요청 빈도 제한·크레딧 원장·크레딧 및 Pro 구매 검증 기록·선택 로그인의 계정 정보(해시) 저장(D1), 운영 설정 저장(KV - 개인정보 없음), 호출별 기록(Workers 로그), 콘텐츠 팩 배포(Workers 정적 자산), 웹 계정 삭제 페이지 제공(Workers)</td>
+          <td><a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">cloudflare.com/privacypolicy</a></td>
+        </tr>
+        <tr>
+          <td>Anthropic, PBC</td>
+          <td>AI 튜터 답변·AI 채점 생성(Claude 모델). 질문 내용·레슨 맥락·최근 대화 최대 6턴·호칭(영어 화면에서는 입력한 이름), 채점 시 제출문과 채점 기준·예시 답안이 답변 생성을 위해 전달됨</td>
+          <td><a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener">anthropic.com/privacy</a></td>
+        </tr>
+        <tr>
+          <td>Google LLC (AdMob)</td>
+          <td>모바일 광고 송출(배너·전면·앱 오픈·보상형·네이티브) 및 광고 식별자 처리, 광고 개인정보 동의 상태 확인과 동의 창 제공(User Messaging Platform)</td>
+          <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></td>
+        </tr>
+        <tr>
+          <td>Apple Inc. / Google LLC</td>
+          <td>앱 배포와 업데이트 확인, 인앱 결제 처리(결제 수단 정보는 운영자에게 전달되지 않음), 크레딧·Pro 구매 확인(Google Play), 기기의 읽어주기(TTS) 기능, 비정상 종료 진단, 문의 메일 수신(Gmail), 선택 로그인의 로그인 창(iOS의 「Apple로 로그인」 / Android의 「Google 계정으로 로그인」, 웹 계정 삭제 페이지의 Google 로그인), Apple로 만든 계정을 앱에서 삭제할 때의 토큰 회수(Apple)</td>
+          <td>각 플랫폼 정책</td>
+        </tr>
+      </tbody>
+    </table></div>
+    <p><strong>로그인 제공자.</strong> 선택 로그인은 Apple 또는 Google의 로그인 창을 거치며, 그 창에서 이루어지는 정보 처리는 각 회사의 개인정보 정책(<a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">apple.com/legal/privacy</a>, <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>)을 따릅니다. Apple로 만든 계정을 앱에서 삭제할 때에는 이용자의 Apple 계정에 남는 이 앱과의 연결을 풀기 위해, 삭제 직전에 Apple로 한 번 더 확인을 마친 경우 그때 받은 인증 코드를 서버가 Apple에 보내 토큰 회수를 요청합니다. Apple 확인을 건너뛰고 삭제한 경우에는 회수를 요청하지 않으며, 이때와 회수되지 않은 때에 남는 연결은 §05의 방법으로 직접 지울 수 있습니다.</p>
+    <p><strong>국외 이전 안내.</strong> Cloudflare와 Anthropic은 국외 사업자입니다. AI 튜터에게 질문을 보내거나 AI 채점을 요청하는 시점에 질문 내용·레슨 맥락·최근 대화 최대 6턴·호칭(또는 이름)·제출문이 네트워크를 통해 이들이 운영하는 해외 서버(미국 등)로 전송되며, 설치 정보, 사용량·비용 기록, 크레딧 원장, 선택 로그인을 이용한 경우의 계정 정보(해시)도 Cloudflare의 해외 데이터센터에 저장됩니다. 이전 항목·목적·보유 기간은 위 표와 §03과 같습니다. Google LLC와 Apple Inc.도 국외 사업자입니다. 무료 이용 시 앱을 실행할 때의 광고 개인정보 동의 확인 정보와 광고 식별자는 Google로, 구매·복원 때의 스토어 거래 정보는 Apple 또는 Google로, 선택 로그인 때의 로그인 정보는 Apple 또는 Google의 로그인 창으로, Apple로 만든 계정을 앱에서 삭제할 때의 인증 코드는 Apple로 전송되며, 이 정보는 이들 회사의 해외 서버(미국 등)에서 처리될 수 있습니다(§01, 위 표와 「로그인 제공자」 문단의 각 회사 정책). AI 튜터와 AI 채점을 이용하지 않으면 질문·제출문·호칭은 전송되지 않습니다. Pro 상태로 앱을 시작하면 광고 SDK와 광고 개인정보 동의 확인이 실행되지 않으며, 선택 로그인을 이용하지 않으면 로그인 정보는 전송되지 않습니다. 다만 앱은 콘텐츠 팩 목록 확인과 내려받기, 크레딧 잔액 확인, 선택 로그인 기능·상태 확인을 위해 운영자의 Cloudflare 서버에 접속하며, 이때 설치 정보가 발급·갱신됩니다. 앱은 학습 기록을 운영자의 서버나 위 수탁자에게 전송하지 않으며, 이용자가 직접 내보내는 백업 파일과 직접 고른 공유(수료증·환각 탐정 결과)만 이용자가 고른 앱으로 전달됩니다. 튜터 대화 기록은 기기에만 저장되며, 질문을 보낼 때 답변 생성을 위해 최근 대화 최대 6턴이 질문과 함께 전달되고(서버에 저장되지 않습니다), 답변을 신고할 때에는 그 질문과 답변이 메일 본문에 담깁니다. 레슨·퀴즈·시뮬레이터와 기기에 받아 둔 자료실은 기기 안에서 동작합니다.</p>
+
+    <h2><span class="num">05</span>이용자의 권리</h2>
+    <ul>
+      <li>호칭·이름 변경: 앱 [설정 - 호칭·캠퍼스]에서 언제든 바꿀 수 있습니다. 이름 대신 「회원님」 같은 호칭을 고르면(영어 화면에서는 이름 칸을 비우면) 이름은 AI 튜터에 전달되지 않습니다.</li>
+      <li>튜터 대화 기록 삭제: 앱 [설정 - 튜터·BYOK - 튜터 「유니」]에서 대화를 하나씩 삭제할 수 있습니다. 서버에는 본문이 저장되지 않으므로 별도 요청이 필요 없습니다.</li>
+      <li>기기 내 정보 백업·복원·삭제: 앱 [설정 - 데이터]에서 학습 기록을 파일로 백업하거나 복원할 수 있습니다. 앱을 제거하면 기기 안의 학습 기록·설정·대화 기록이 모두 삭제됩니다(iOS Keychain에 남는 항목은 §03 참조).</li>
+      <li>직접 입력한 API 키 삭제: 앱 [설정 - 튜터·BYOK - 내 키 넣기]에서 언제든 지울 수 있습니다.</li>
+      <li>광고 식별자 재설정 또는 맞춤형 광고 거부: iOS는 [설정 - 개인정보 보호 및 보안 - 추적], Android는 [설정 - 개인 정보 보호 - 광고]에서 가능합니다.</li>
+      <li>광고 개인정보 동의·선택 변경: 앱 [설정 - 정보 - 광고 개인정보 설정] 메뉴가 표시되는 무료 이용자(유럽경제지역·영국·스위스, 미국 일부 주처럼 관련 규정이 동의나 선택권을 요구하는 지역에서, 운영자가 그 지역용 창을 게시해 둔 경우)는 이 메뉴에서 언제든 다시 고를 수 있습니다. 대한민국처럼 동의 창이 필요하지 않은 지역과 Pro 이용자에게는 이 메뉴가 표시되지 않습니다.</li>
+      <li>로그아웃(선택 로그인 이용자): 앱 [설정 - 크레딧 이어 받기 - 이 기기에서 로그아웃]. 그 기기만 계정에서 풀리고 크레딧은 계정에 남으며, 다시 로그인하면 돌아옵니다.</li>
+      <li>계정 삭제(선택 로그인 이용자): 앱 안, 웹, 메일의 세 가지 방법으로 요청할 수 있으며, 삭제하면 지워지는 것과 남는 것은 그 아래와 같습니다.
+        <ul>
+          <li><strong>앱 안에서</strong> - [설정 - 크레딧 이어 받기 - 계정 삭제]를 누르고 확인 창 「계정을 삭제할까요?」에서 「계정 삭제」를 누릅니다. iOS에서는 지우기 전에 Apple로 한 번 더 확인하며, 확인이 되지 않으면 「Apple 확인 없이 지우기」를 고를 수 있습니다.</li>
+          <li><strong>웹에서</strong> - <a href="https://aiclassroom-api.singongjineung.workers.dev/account/delete" target="_blank" rel="noopener">aiclassroom-api.singongjineung.workers.dev/account/delete</a>. 앱을 지운 뒤에도 이용할 수 있습니다. Google 계정으로 만든 계정은 이 페이지에서 Google로 한 번 더 로그인해 본인을 확인한 뒤 바로 삭제됩니다. Apple로 만든 계정은 이 페이지에서 삭제할 수 없으므로 앱 안에서 삭제하거나 메일로 요청해 주십시오. 이 페이지에서 「삭제 시작」을 누르면 브라우저가 Google의 로그인 스크립트를 불러오며(이때 Google에 연결됩니다. 페이지를 열기만 해서는 연결되지 않습니다), 서버는 Google이 서명한 로그인 토큰을 본인 확인에만 쓰고 저장하지 않으며 그 안의 이메일·이름은 읽지 않습니다. 운영자는 접속 IP 주소를 요청 빈도 제한을 위해 해시한 값으로만 최대 2시간 보관합니다(Cloudflare가 자동으로 남기는 접속 기록은 §01·§03).</li>
+          <li><strong>메일로</strong> - <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a>. 서버는 이메일 주소를 저장하지 않아 메일 주소만으로는 계정을 찾을 수 없으므로, 앱 [설정 - 정보 - 설치 ID]의 값(복사 단추로 복사한 전체 값)을 함께 보내 주셔야 합니다. 운영자가 설치 ID로 계정을 확인한 뒤 직접 삭제하며, 남은 크레딧이 있거나 여러 기기가 묶여 있으면 삭제하기 전에 한 번 더 확인 메일을 드릴 수 있습니다. 메일로 삭제한 결과는 웹에서 삭제한 것과 같습니다.</li>
+          <li><strong>지워지는 것</strong> - 이 앱의 계정(계정 식별값의 해시)과 그 계정에 묶인 모든 기기의 묶음입니다. 서버에서 실제로 지우며, 같은 계정으로 로그인해 둔 기기는 모두 로그아웃됩니다. Apple 계정·Google 계정 자체는 그대로입니다.</li>
+          <li><strong>남은 크레딧</strong> - 앱 안에서 삭제하면 계정에 남은 크레딧은 삭제를 요청한 기기에 남고, 같은 계정으로 로그인해 둔 다른 기기에서는 사라집니다. <strong>웹에서 삭제하거나 메일로 요청해 삭제하면 남은 크레딧은 어느 기기에도 남지 않고 사라집니다.</strong> 앱이 설치되어 있다면 앱 안에서 삭제하시기 바랍니다.</li>
+          <li><strong>되돌릴 수 없습니다</strong> - 같은 Apple·Google 계정으로 다시 로그인하면 새 계정으로 시작합니다. 웹이나 메일로 삭제해 사라진 크레딧은 돌아오지 않으며, 앱 안에서 삭제해 기기에 남은 크레딧은 그 기기에서 다시 로그인하면 새 계정으로 옮겨집니다.</li>
+          <li><strong>Pro 구독은 해지되지 않습니다</strong> - 계정을 삭제해도 결제가 이어집니다. 해지는 App Store 또는 Google Play의 구독 관리에서 직접 해야 합니다.</li>
+          <li><strong>남는 것</strong> - 크레딧을 사고 쓴 기록은 계정과의 연결을 끊은 채 「전자상거래 등에서의 소비자보호에 관한 법률」에 따라 5년간 보관한 뒤 지웁니다(§03). 설치에 딸린 기록(설치 ID, 무료 체험 횟수, 구매 검증 기록)은 계정 삭제로 지워지지 않으며, 삭제를 원하면 설치 ID와 함께 메일로 요청해 주십시오. 다만 크레딧 원장과 구매 검증 기록(스토어 거래 식별값 포함)은 삭제를 요청하셔도 §03에 따라 5년간 보관합니다. 메일로 요청해 삭제한 경우에는 서버가 Apple의 연결(토큰)을 회수하지 못하므로, Apple로 만든 계정이었다면 Apple 계정 설정의 「Apple로 로그인」 목록에서 이 앱을 직접 지워 주십시오. Apple로 만든 계정을 앱에서 삭제하면, 삭제 직전의 Apple 확인을 마친 경우 서버가 Apple에 이 앱과의 연결(토큰) 회수를 요청하며, 확인을 건너뛰었거나 회수되지 않은 경우에는 Apple 계정 설정의 「Apple로 로그인」 목록에서 이 앱을 직접 지울 수 있습니다. Google 계정의 「서드 파티 앱 및 서비스」 목록에 이 앱의 연결이 남아 있으면 Google 계정 설정에서 직접 끊을 수 있습니다.</li>
+        </ul>
+      </li>
+      <li>알림 중단: 앱 [설정 - 알림]에서 끄거나 기기 알림 설정에서 차단할 수 있습니다. 서비스의 알림은 모두 기기 안에서 예약되는 로컬 알림이며 푸시 서버가 없습니다.</li>
+      <li>AI 답변 신고: 각 답변의 신고 버튼 또는 아래 이메일로 부적절한 답변을 알릴 수 있으며, 운영자는 접수 후 확인하여 필터·안내문을 개선합니다.</li>
+      <li>열람·정정·삭제·처리정지 요구와 본 처리방침에 관한 문의는 아래 책임자 연락처로 접수할 수 있으며, 지체 없이 답변합니다. 서버 기록은 이름·이메일과 연결되지 않은 무작위 설치 ID(선택 로그인을 이용한 경우 계정 식별값의 해시)로만 구분됩니다. 요청하실 때 앱 [설정 - 정보 - 설치 ID]의 복사 단추로 값을 복사해 함께 보내 주시면 해당 기록을 찾을 수 있습니다. 앱을 이미 지워 설치 ID를 확인할 수 없는 경우에는 추가 확인(예: 크레딧 구매 내역)이 필요할 수 있습니다. 만 14세 미만 이용자의 법정대리인도 같은 방법으로 요구할 수 있습니다. §03에 따라 5년간 보관하는 거래 기록은 그 기간 동안 삭제 요청을 받아도 보관합니다.</li>
+    </ul>
+
+    <h2><span class="num">06</span>개인정보의 안전성 확보 조치</h2>
+    <ul>
+      <li>개인을 식별할 수 있는 정보를 수집하지 않는 것을 기본 원칙으로 설계했습니다. 서버는 이용자를 무작위 설치 ID로 구분하며, 선택 로그인을 이용한 경우에도 계정 식별값은 해시한 값으로만 저장합니다.</li>
+      <li>선택 로그인의 로그인 토큰은 서버에서 제공자의 서명, 발급 대상, 유효 기간, 서버가 내준 확인값(nonce, 10분 동안 유효)을 검증합니다. 토큰·인증 코드·이메일·이름은 저장하거나 로그에 남기지 않습니다.</li>
+      <li>AI 튜터 질문·답변 본문은 중계 서버의 로그와 데이터베이스에 기록하지 않습니다. 운영자가 남기는 호출 기록에는 설치 ID 앞 8자리와 사용량 수치, 요청 종류·시각·상태 코드·실패 사유·응답 시간만 담고 IP 주소는 담지 않습니다. 이와 별도로 Cloudflare가 서버 요청마다 자동으로 남기는 접속 기록(요청 주소·시각 등이며, 접속 IP 주소와 접속 국가가 포함될 수 있음)이 Cloudflare Workers 로그의 보관 기간(§03) 동안 남을 수 있습니다.</li>
+      <li>설치 토큰·설치 키와 API 키는 iOS Keychain / Android 암호화 저장소에 보관하며, 토큰은 서명(HMAC-SHA256)으로 위조를 막고 30일마다 다시 발급합니다. 서버에는 설치 키의 해시값만 둡니다.</li>
+      <li>크레딧 구매와 Pro 구매는 서버에서 Apple이 서명한 거래 정보 또는 Google Play Developer API로 검증하며, 거래 식별값 유일 제약으로 중복 적립과 중복 지급을 차단합니다.</li>
+      <li>콘텐츠 팩은 전자서명과 해시를 확인한 뒤 설치합니다.</li>
+      <li>자동화 호출·남용을 막기 위해 설치별·IP별 요청 빈도 제한과 전체 비용 상한을 적용합니다.</li>
+      <li>외부 통신은 모두 HTTPS로 암호화되며, 앱은 암호화되지 않은 통신을 허용하지 않습니다.</li>
+      <li>위탁 수탁자(Cloudflare, Anthropic, Google 등)의 보안 표준을 준용합니다.</li>
+    </ul>
+
+    <h2><span class="num">07</span>개인정보 보호 책임자</h2>
+    <p>
+      담당자 — Hasegi Inc. · 개발팀<br />
+      이메일 — <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a>
+    </p>
+
+    <h2><span class="num">08</span>권익침해 구제방법</h2>
+    <p>정보주체는 개인정보 침해에 관한 피해 구제 및 상담을 다음 기관에 문의할 수 있습니다.</p>
+    <div class="table-wrap"><table>
+      <colgroup>
+        <col style="width:42%" />
+        <col style="width:30%" />
+        <col style="width:28%" />
+      </colgroup>
+      <thead>
+        <tr><th>기관</th><th>전화</th><th>홈페이지</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>개인정보 분쟁조정위원회</td>
+          <td>(국번 없이) 1833-6972</td>
+          <td><a href="https://www.kopico.go.kr" target="_blank" rel="noopener">kopico.go.kr</a></td>
+        </tr>
+        <tr>
+          <td>개인정보 침해신고센터 (KISA)</td>
+          <td>(국번 없이) 118</td>
+          <td><a href="https://privacy.kisa.or.kr" target="_blank" rel="noopener">privacy.kisa.or.kr</a></td>
+        </tr>
+        <tr>
+          <td>대검찰청 사이버범죄수사단</td>
+          <td>(국번 없이) 1301</td>
+          <td><a href="https://www.spo.go.kr" target="_blank" rel="noopener">spo.go.kr</a></td>
+        </tr>
+        <tr>
+          <td>경찰청 사이버수사국</td>
+          <td>(국번 없이) 182</td>
+          <td><a href="https://ecrm.cyber.go.kr" target="_blank" rel="noopener">ecrm.cyber.go.kr</a></td>
+        </tr>
+      </tbody>
+    </table></div>
+
+    <h2><span class="num">09</span>처리방침의 변경</h2>
+    <p>본 처리방침은 법령·정책, 사용하는 AI 모델이나 수탁자, 보안 기술의 변경에 따라 개정될 수 있으며, 개정 시 시행일 7일 전(이용자에게 불리한 변경의 경우 30일 전)에 앱 내 공지 또는 본 페이지 상단의 시행 일자를 통해 안내합니다. 이용자는 정기적으로 본 페이지를 확인해 주시기 바랍니다.</p>
+
+    <div class="rule section" id="en"></div>
+
+    <div class="eyebrow">Privacy Policy · English</div>
+    <h1>Privacy Policy</h1>
+    <div class="meta">AI Classroom (AI 교실) · com.hasegi.aiclassroom<br />Last updated 2026-10-05 / Effective 2026-10-29 · v1.0<br />The Korean text above governs; this English version is provided for convenience.</div>
+
+    <p>
+      Hasegi Inc. ("we" or "the operator") operates the mobile application <strong>AI Classroom</strong> ("the service").
+      We respect your privacy and comply with applicable data protection laws, including the Personal Information Protection Act of Korea and the Framework Act on the Development of Artificial Intelligence and the Establishment of a Foundation for Trust.
+      This policy explains what information the service processes, where, and how it is protected.
+    </p>
+
+    <div class="callout">
+      <p><strong>In short</strong></p>
+      <p>You can use every feature without signing up or signing in. Your learning progress, settings, and tutor chat history stay <strong>on your device only</strong>; we keep no copy. When you ask the AI tutor a question or request AI grading, <strong>the question (or the text you submitted), a summary of the current lesson, and the form of address you chose (on the English screen, the name you entered, if any)</strong> pass through our relay server (Cloudflare) to Anthropic (Claude) to generate the answer. We do not store question or answer text on the server and do not use it to train models. The server keeps a <strong>random install ID</strong> for usage limits and credit balance, plus usage and credit purchase records. If you want purchased AI credits to carry over after a reinstall or a device change, you can <strong>optionally</strong> sign in with Apple or Google; in that case the server additionally stores only an unrecognizable (hashed) form of the account identifier and does not store your email or name. Free users see Google AdMob ads, which share the advertising identifier with Google, and in regions where regulations require consent an ad privacy consent prompt may be shown before ads (see "Ad privacy consent" in section 01).</p>
+    </div>
+
+    <div class="callout">
+      <p><strong>Generative AI notice</strong></p>
+      <p>Answers from the AI tutor "Uni" (including "deep thinking" answers) and AI live grading are produced by <strong>generative AI (Anthropic Claude)</strong>. Lesson narration and Uni's voice are synthesized AI voice. AI answers are labeled "AI generated" on screen; they can be wrong or inaccurate, so verify with other sources before making important decisions. Use the <strong>Report</strong> button under any answer, or email <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a>, to flag an inappropriate answer; we review and act on reports.</p>
+    </div>
+
+    <div class="rule"></div>
+
+    <h2><span class="num">01</span>Information We Process</h2>
+    <p>The service does not collect your phone number, address, location, contacts, or photos. A name is processed as described below if you type one in as your form of address (on the English screen, as your name). The app never asks for your email address. An email address can reach us in two cases: when you yourself send an inquiry or report email, and, when you sign in with Google for optional sign-in or for web account deletion, when Google includes your email and name in the sign-in result and in the sign-in token sent to our server. In the second case the values only pass through while we confirm it is you: neither the app nor the web account deletion page reads them, and the server does not read, store, or log them. Only the following limited information is processed.</p>
+    <div class="table-wrap"><table>
+      <colgroup>
+        <col style="width:28%" />
+        <col style="width:42%" />
+        <col style="width:30%" />
+      </colgroup>
+      <thead>
+        <tr><th>Item</th><th>Details</th><th>Where it lives</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Learning records</td>
+          <td>Lesson, assignment, and quiz progress and scores, skill cards and badges, streak, stars (learning currency), review schedule, notes and prompt notes, certificate issuance (including the name written on a certificate)</td>
+          <td>Device storage (SQLite) - never uploaded</td>
+        </tr>
+        <tr>
+          <td>Settings</td>
+          <td>Text size, senior mode, display mode, notification time, sound and caption options, campus name, downloaded content packs, Pro purchase state (the on-device copy used for display; what is sent to our server to verify a purchase is listed under "Purchase information" below)</td>
+          <td>Device storage - never uploaded</td>
+        </tr>
+        <tr>
+          <td>Form of address</td>
+          <td>How the app and the AI tutor address you. On the Korean screen the default is "회원님" (Member); you can pick another form or type a name (up to 10 characters). The English screen uses no form of address; you can only enter a name (optional, up to 20 characters)</td>
+          <td>Device storage. Sent together with a question only when you ask the AI tutor (on the English screen, only if you entered a name) - not stored on the server</td>
+        </tr>
+        <tr>
+          <td>AI tutor questions and lesson context</td>
+          <td>The question you type (up to 1,000 characters), the current lesson's title, summary, and terms and the text of the screen you are on (attached automatically, up to 4,000 characters - up to 6,000 for English lessons), up to the last 6 turns of the conversation, your form of address (on the English screen, the name you entered), and a value indicating the language of the lesson you are reading (Korean or English)</td>
+          <td>Sent through the Cloudflare relay to Anthropic only while an answer is generated - no text stored on the server. Chat history is kept on your device only</td>
+        </tr>
+        <tr>
+          <td>AI grading submissions</td>
+          <td>If you choose "AI live grading" in an assignment or the live practice room, the text you wrote (up to 1,500 characters - up to 3,000 for English lessons) with that assignment's rubric and sample answers, and a value indicating the language of the lesson you are reading (Korean or English)</td>
+          <td>Sent through the Cloudflare relay to Anthropic only while grading - no text stored on the server</td>
+        </tr>
+        <tr>
+          <td>Install information</td>
+          <td>A random install ID and signed (HMAC) token, platform (iOS / Android), app version, issue time, last issue date, and a hash of the install key (the install key is a random value the app creates on your device; the server keeps only its hash, never the key itself). The country and IP address of the connection are not stored in install information. Not linked to your name, email, advertising identifier, or hardware ID (linked to the hashed account information below only if you use optional sign-in)</td>
+          <td>Device secure storage (iOS Keychain / Android encrypted storage) and Cloudflare servers (D1)</td>
+        </tr>
+        <tr>
+          <td>Account information (only if you use optional sign-in)</td>
+          <td>An unrecognizable (hashed) form of the account identifier assigned by the sign-in provider (Apple on iOS, Google on Android), a random account number the server creates for each account, which provider it is (Apple / Google), when the account was created, and which install was tied to the account and when. At sign-in, a sign-in token signed by the provider is sent to our server to confirm it is you, but tokens and authorization codes are not stored. Your email and name are not used or stored</td>
+          <td>Cloudflare servers (D1). The device keeps only a copy of the sign-in status (whether it is tied to an account, the provider, when it was tied, which providers are turned on at the server, and when this was last checked); no token or account identifier is kept on the device</td>
+        </tr>
+        <tr>
+          <td>Usage and cost records</td>
+          <td>Free AI trial uses per install ID and extra uses received from rewarded ads; per call, the first 8 characters of the install ID, model name, token counts, cost, latency, and status code. For optional sign-in, sign-out, and account deletion requests, only the first 8 characters of the install ID (absent for web account deletion requests), the request type, the status code, and the failure reason are logged. These records that we write do not contain question or answer text, IP addresses, sign-in tokens, account identifiers, or email addresses (for the connection records Cloudflare keeps automatically, see the "IP address of the connection" row below)</td>
+          <td>Cloudflare servers (D1 / Workers logs)</td>
+        </tr>
+        <tr>
+          <td>IP address of the connection</td>
+          <td>We use it only for rate limiting against automated calls and abuse. We do not store the IP address itself in our databases or put it in the call records we write; only an irreversibly transformed value (a hash) is held temporarily to limit how often install information can be issued and how often web account deletion can be requested (for IPv6 addresses only the first 64 bits are used). Separately, the connection records that Cloudflare keeps automatically for each request to the server (the request address, time, and similar details, which may include the IP address and country of the connection) may remain in Cloudflare Workers logs</td>
+          <td>Cloudflare servers - held in rate-limit counters, temporarily (up to 2 hours). Automatic connection records remain for the retention period of Workers logs (section 03)</td>
+        </tr>
+        <tr>
+          <td>AI credit ledger</td>
+          <td>Credits granted and spent per install ID (per account if you use optional sign-in); for credit purchases and Pro (subscription or lifetime) purchases, the product ID, verification time, and store transaction identifiers (Apple transactionId and originalTransactionId / Google purchaseToken); for Pro subscriptions, the expiry time</td>
+          <td>Cloudflare servers (D1). A copy of the balance and purchases awaiting verification are also kept on your device</td>
+        </tr>
+        <tr>
+          <td>Purchase information</td>
+          <td>Pro subscription or lifetime purchase state. When you buy an AI credit pack, or buy or restore Pro (subscription or lifetime), the transaction data issued by the store (signed receipt or purchase token, including transaction identifiers) is sent to our server for verification. Pro transaction data is used to confirm the purchase for the monthly AI credit grant; for Google Play subscriptions our server re-checks the subscription status with Google Play before each grant. Payment details such as card numbers never reach us</td>
+          <td>Device storage / Apple and Google stores / Cloudflare servers (credit and Pro purchase verification records)</td>
+        </tr>
+        <tr>
+          <td>Your own API key (BYOK, optional)</td>
+          <td>If you register your own Anthropic API key at advanced levels, that key</td>
+          <td>Device secure storage only - never sent to our servers</td>
+        </tr>
+        <tr>
+          <td>Inquiry and report emails</td>
+          <td>Tapping Report on an answer opens your mail app with that question (up to 500 characters), the answer (up to 1,500 characters), and a chat reference number filled in. It reaches us, with your sender address, only if you tap Send</td>
+          <td>Our support mailbox (Gmail)</td>
+        </tr>
+        <tr>
+          <td>Advertising identifier (IDFA / AAID)</td>
+          <td>Ad delivery (including personalized ads), frequency capping, and fraud prevention</td>
+          <td>Google AdMob (external)</td>
+        </tr>
+        <tr>
+          <td>Ad privacy consent status</td>
+          <td>For free users, on every launch Google's consent tool (User Messaging Platform) checks with Google whether the device is in a region that requires ad privacy consent and whether a previous choice is still valid. In regions where the consent prompt is shown, the choices you make. Not checked for Pro users</td>
+          <td>Google (external). Your choices are also stored on the device</td>
+        </tr>
+        <tr>
+          <td>Diagnostics</td>
+          <td>Crash reports, device model, OS version</td>
+          <td>Apple / Google platforms (if you opted in)</td>
+        </tr>
+      </tbody>
+    </table></div>
+
+    <p><strong>Optional sign-in ("Keep your credits").</strong> You can use every feature without signing up or signing in, and users who are not signed in are distinguished only by a random install ID, never by name or email. Sign-in is an <strong>optional feature</strong> offered for one purpose only: tying the balance of the AI credits you bought to an account so that it carries over when you reinstall the app or change devices. It is available only when the "Keep your credits" section appears in the app's Settings (in versions or during periods where we have not turned this feature on, you cannot newly sign in); on iOS it uses "Sign in with Apple" and on Android "Sign in with Google". The app never opens a sign-in prompt on its own; sign-in happens only when you tap the sign-in button.</p>
+    <p>When you sign in, you go through Apple's or Google's sign-in window, and a sign-in token signed by that company is sent to our server (Cloudflare). The server checks the token's signature and intended audience, then stores the account identifier inside it only as an <strong>unrecognizable (hashed) value</strong>, together with which install was tied to the account and when. Tokens and authorization codes are used only for this check and are not stored. <strong>We do not use or store your email or name.</strong> With Sign in with Apple, the app does not request your email or name. Google passes your email, name, and profile picture address to the app along with the sign-in result, and the sign-in token sent to the server may also contain your email and name; the app discards those values without reading them, and the server does not read, store, or log them. Processing inside Apple's or Google's sign-in window is governed by each company's privacy policy.</p>
+    <p>Once you sign in, the credit balance on that device moves to the account, later purchases, grants, and usage accumulate on the account, and every device signed in to the same account sees the same balance. "Sign out on this device" unties only that device; the balance stays in the account. Versions that include this feature ask the server, when you open the Settings or purchase screen, whether the feature is turned on and whether this device is tied to an account; only the install token is sent for this check, never account information. How to delete an account and what remains afterwards are described in sections 03 and 05.</p>
+    <p><strong>Form of address and name.</strong> On the Korean screen the app addresses you as "회원님" (Member) by default. During onboarding or in [Settings - Name &amp; campus] you can pick another form ("선생님", Teacher) or type a name. The English screen uses no form of address; in the same place you can optionally enter a name, and if you leave it blank the app goes without one. The form of address or name and the campus name are stored on your device only. When you ask the AI tutor a question, however, the form of address (up to 12 characters; a name you typed is sent with the Korean suffix "님" attached) is sent with the question so that Uni addresses you the same way; on the English screen the name you entered is sent only if there is one (the server accepts up to 24 characters for it). It is not stored on the server. If you do not want a name to be sent, choose a general form such as "회원님" instead of a name, or on the English screen leave the name field blank.</p>
+    <p><strong>AI tutor and AI grading.</strong> When you send a question to the tutor, the question, context such as the current lesson's title, summary, terms, and the text of the screen you are on, and your form of address (on the English screen, the name you entered) pass through our relay server (Cloudflare Workers) to Anthropic, PBC's Claude model, and the generated answer streams back. If you choose "AI live grading" in an assignment, the text you wrote and the rubric travel the same way. Both requests also carry a value indicating the language of the lesson you are reading (Korean or English), which sets the language of the answer and the grading. The relay only verifies the install token and checks rate limits, free trial uses, the credit balance, and the cost cap; it does not store question, submission, or answer text. We do not use your questions or answers to train AI models, and content sent to Anthropic is handled under Anthropic's commercial API terms and privacy policy. Chat history stays on your device and can be deleted chat by chat in [Settings - Tutor &amp; BYOK - Tutor Uni]. Please do not type personal information such as names, phone numbers, national ID numbers, or health details into questions. If the app or the server detects what looks like a national ID number, card number, phone number, email address, or password, the question is not sent to the AI and a notice is shown instead, but this filter is not perfect.</p>
+    <p><strong>Your own API key (BYOK).</strong> At advanced levels you may register your own Anthropic API key, in which case the app sends requests directly to Anthropic. The key and the request contents (question, lesson context, form of address or name) never pass through our servers, and the key is kept only in your device's secure storage. Processing is then governed by Anthropic's terms and privacy policy.</p>
+    <p><strong>Install information.</strong> The first time you use the AI tutor or AI grading, when a purchase is verified, or, in versions that include optional sign-in, the first time you open the Settings or purchase screen, the relay issues a random install ID and signed token, which the app keeps in the iOS Keychain or Android encrypted storage. The request carries only the platform (iOS / Android), the app version, and a random install key the app creates on your device; the server records the issue time and a hash of the install key alongside (the install key is used only to confirm that a later request comes from the same install; the country and IP address of the connection are not recorded in install information). Install information is used only for counting free trial uses, abuse prevention, and credit balance management, and is not linked to your name, email, advertising identifier, or hardware ID (it is linked to the hash of an account identifier only if you use optional sign-in). On iOS the install ID stays in the device Keychain when the app is deleted and carries over if you reinstall on the same device; on Android it is removed when you delete the app or clear its data. If you are not signed in, remaining AI credits cannot be retrieved after you delete the app on Android, or after you change or reset your device on either platform. If you tied your balance to an account with optional sign-in, you can pick it up again by signing in with the same sign-in provider (Apple or Google).</p>
+    <p><strong>Microphone.</strong> This version does not use the microphone or speech recognition permissions.</p>
+    <p><strong>Content pack downloads.</strong> Content packs (lesson images, audio, and so on) and their index are downloaded from our Cloudflare servers (Workers static assets). Those requests carry only ordinary connection information such as your IP address, never your learning records or install ID.</p>
+    <p><strong>External links and sharing.</strong> "Open the real app" in lessons and source links in the library open your browser or the relevant app when you tap them; processing after that follows that service's policy. Sharing a certificate or a Hallucination Detective result and exporting a backup file go only to the app you choose.</p>
+    <p><strong>Advertising.</strong> Free users see Google AdMob ads (banner, interstitial, app open, rewarded, native), and the AdMob SDK collects the advertising identifier and shares it with Google. On iOS, the App Tracking Transparency system prompt asks for permission to use the advertising identifier; if you decline, non-personalized ads are still shown. No ads are shown during a lesson, assignment, quiz, or tutor session, and no ads are shown once Pro or lifetime is purchased. When the app starts in the Pro state, the ad SDK is not started, and neither the ad privacy consent check described below nor the tracking prompt takes place.</p>
+    <p><strong>Ad privacy consent.</strong> When a free user launches the app, before ads are prepared, Google's consent tool (User Messaging Platform) checks with Google whether the device is in a region that requires ad privacy consent and whether a previous choice is still valid. This check happens on every launch and uses the app's ad app ID; any other information the tool sends to Google, and how it is handled, is governed by Google's policy. In regions where regulations require consent, such as the European Economic Area (EEA), the United Kingdom, and Switzerland, a consent prompt provided by Google is shown once we have published one for that region; your choices are sent to Google and also stored on the device. If you choose not to consent, you can still use the app as usual and ads may still be shown; which ads are shown is then decided by Google according to your choices. In regions whose regulations give users ad privacy choices, such as certain US states, a notice provided by Google may likewise be shown once we have published one for that region. The [Settings - About - Privacy choices] menu appears for free users where Google's consent tool reports that such choices must be offered; where it appears, you can change your choices there at any time. In regions where no consent prompt is required, such as Korea, no prompt is shown and this menu does not appear. The order is: ad privacy consent check (with the consent prompt where required), then the App Tracking Transparency prompt on iOS, then the ad SDK starts. On a launch where the consent status could not be confirmed, the app looks at the device's time zone and region settings, on the device only, and if the device may be in a region that requires consent, it does not start the ad SDK or show the tracking prompt for that launch.</p>
+    <p><strong>Age.</strong> The service is not directed to children under 13 (the age rating shown is the one each store assigns). The app does not ask for or store your age or date of birth. Users under 14 must obtain a parent's or guardian's consent before use, and if we learn that personal information was collected from a child under 14 without consent, we delete it without delay.</p>
+
+    <h2><span class="num">02</span>Purposes</h2>
+    <ul>
+      <li>Learning records and settings - saving progress, review schedules, statistics and rewards, issuing certificates, restoring your settings on the next launch</li>
+      <li>Form of address and name - addressing you on screen and in AI tutor answers</li>
+      <li>AI tutor questions and lesson context, AI grading submissions - generating AI answers to your questions and grading assignment submissions</li>
+      <li>Install information, usage records, and IP address - applying free trial limits, preventing automated calls and abuse, managing the service-wide cost cap</li>
+      <li>Credit ledger and purchase information - granting and deducting purchased credits, confirming Pro purchases and granting monthly AI credits, preventing duplicate grants, providing Pro benefits and restoring purchases</li>
+      <li>Account information (optional sign-in) - tying the balance of purchased AI credits to an account so it carries over after a reinstall or device change, and confirming it is you when account deletion is requested</li>
+      <li>Your own API key - calling Anthropic directly with your own account (kept on device)</li>
+      <li>Inquiry and report emails - reviewing reported answers and replying, handling inquiries</li>
+      <li>Advertising identifier - showing mobile ads (including personalized ads), capping frequency, and preventing fraud (no ads once Pro or lifetime is purchased)</li>
+      <li>Ad privacy consent status - obtaining ad privacy consent in regions where regulations require it, and requesting ads in line with your choices</li>
+      <li>Diagnostics - improving stability and fixing bugs</li>
+    </ul>
+    <p>We do not use this information to identify or profile individual users, and the app contains no analytics SDK. Your questions, answers, and learning records are never used to train AI models or for advertising.</p>
+
+    <h2><span class="num">03</span>Retention</h2>
+    <ul>
+      <li>Data stored on your device (learning records, settings, form of address, tutor chat history, content packs) stays there until you delete it in the app or uninstall the app; we keep no copy. Backup files you create yourself are under your control.</li>
+      <li>The install ID, token, and install key and your own API key, kept in the device's secure storage, are deleted with the app on Android. On iOS they may remain in the device Keychain after the app is removed, so delete your API key in [Settings - Tutor &amp; BYOK - Use my own key] before uninstalling.</li>
+      <li>AI tutor questions, AI grading submissions, and answer text do not remain on the relay once the answer is complete. Anthropic may retain inputs for a limited period for purposes such as abuse detection under its own policy.</li>
+      <li>The count of free trial uses (per install ID) is kept, like install information, while the service is provided and deleted on request or when the service ends. Rate-limit counters (keyed by a transformed value of the IP address, or by install ID) are deleted automatically within 2 hours at most. Per-call records (first 8 characters of the install ID, model name, token counts, cost, latency, status code) processing records of optional sign-in and account deletion requests (request type, status code, failure reason), and the connection records Cloudflare keeps automatically for each request to the server (see "IP address of the connection" in the table in section 01) remain only for the retention period of Cloudflare Workers logs (currently 3 or 7 days, depending on the Cloudflare plan); daily totals, which are not tied to any install, are kept for cost management.</li>
+      <li>Install information (install ID, platform, app version, issue time, last issue date, hash of the install key) is kept while the service is provided and deleted on request or when the service ends.</li>
+      <li>Account information (the hash of the account identifier and the links between the account and installs) is kept until you delete the account. When you delete the account, the server actually deletes this information (it is not merely deactivated). Sign-in tokens and authorization codes do not remain on the server once the check is complete.</li>
+      <li>The credit ledger and store transaction identifiers are kept for <strong>5 years</strong> as records of payment and supply of goods under Korea's Act on the Consumer Protection in Electronic Commerce, and are destroyed after that. These records remain as transaction evidence even after the install ID is gone from your device and contain nothing, such as a name or email, that identifies you. If you delete an account created with optional sign-in, the records of credits bought and used are likewise kept for 5 years as required by the same Act, with the link to the account removed, and deleted after that. Records past the retention period are cleaned up automatically by the server once a day. For the credit ledger, entries older than 5 years are deleted and a single line holding their total is kept (your remaining credits do not change). For purchase verification records, only an unrecognizable value (a hash) of the store transaction identifier is kept, to stop the same purchase from being credited twice; the install ID, product, amount, and time are deleted. Records of a Pro subscription that has ended are deleted 5 years after it was last checked.</li>
+      <li>Inquiry and report emails are kept in our mailbox for as long as needed to review and reply, and are deleted on request.</li>
+      <li>The advertising identifier and your ad privacy consent choices are handled under Google's policy. You can reset the advertising identifier or opt out of personalized ads in your OS settings at any time, and where the [Settings - About - Privacy choices] menu appears in the app you can change your choices there.</li>
+      <li>Purchase records are kept by Apple App Store / Google Play under their own policies.</li>
+      <li>Crash reports are retained by Apple App Store Connect / Google Play Console for 90 days to 2 years under their policies.</li>
+      <li>How data is deleted - records on the server (Cloudflare D1) are deleted by removing the rows concerned. Account deletion, the clean-up of rate-limit counters, and the clean-up of transaction records past the retention period are carried out by the server; deletion requests received by email are carried out by us by hand. Inquiry and report emails are deleted from our mailbox.</li>
+    </ul>
+
+    <h2><span class="num">04</span>Third Parties and Processors</h2>
+    <p>Apart from what is described in this policy, we do not provide your personal information to third parties without separate consent. For free users, the AdMob SDK collects the advertising identifier and shares it with Google for advertising, as described under "Advertising" in section 01; beyond that, we entrust limited processing to the services below. Learning records and settings are never passed to any of them. Of your tutor chat history, only up to the last 6 turns are sent, through the Cloudflare relay, to Anthropic when you ask the AI tutor a question, to generate the answer. Your own API key is used only to call Anthropic, its issuer, directly.</p>
+    <div class="table-wrap"><table>
+      <colgroup>
+        <col style="width:30%" />
+        <col style="width:48%" />
+        <col style="width:22%" />
+      </colgroup>
+      <thead>
+        <tr><th>Processor</th><th>Purpose</th><th>Policy</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Cloudflare, Inc.</td>
+          <td>Running the AI tutor and AI grading relay (Workers); storing install information, free trial counts, rate-limit counters, the credit ledger, credit and Pro purchase verification records, and the hashed account information for optional sign-in (D1); storing operating settings (KV - no personal data); per-call records (Workers logs); delivering content packs (Workers static assets); serving the web account deletion page (Workers)</td>
+          <td><a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">cloudflare.com/privacypolicy</a></td>
+        </tr>
+        <tr>
+          <td>Anthropic, PBC</td>
+          <td>Generating AI tutor answers and AI grading (Claude models). The question, lesson context, up to the last 6 turns of the conversation, and your form of address (on the English screen, the name you entered, if any), and for grading the submitted text with the rubric and sample answers, are sent to generate the answer</td>
+          <td><a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener">anthropic.com/privacy</a></td>
+        </tr>
+        <tr>
+          <td>Google LLC (AdMob)</td>
+          <td>Serving mobile ads (banner, interstitial, app open, rewarded, native) and processing the advertising identifier; checking ad privacy consent status and providing the consent prompt (User Messaging Platform)</td>
+          <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></td>
+        </tr>
+        <tr>
+          <td>Apple Inc. / Google LLC</td>
+          <td>App distribution and update checks, in-app purchase processing (payment details never reach us), credit and Pro purchase confirmation (Google Play), the device's read-aloud (TTS) feature, crash diagnostics, receiving inquiry mail (Gmail), the sign-in window for optional sign-in ("Sign in with Apple" on iOS / "Sign in with Google" on Android, and Google sign-in on the web account deletion page), token revocation when an account created with Apple is deleted in the app (Apple)</td>
+          <td>Each platform's policy</td>
+        </tr>
+      </tbody>
+    </table></div>
+    <p><strong>Sign-in providers.</strong> Optional sign-in goes through Apple's or Google's sign-in window, and processing inside that window is governed by each company's privacy policy (<a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">apple.com/legal/privacy</a>, <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>). When you delete, in the app, an account created with Apple, and you completed the confirmation with Apple just before deletion, our server sends Apple the authorization code obtained in that confirmation and asks Apple to revoke the token, so that the link between this app and your Apple account is removed. If you delete without the Apple confirmation, no revocation is requested; in that case, or if the token was not revoked, you can remove the remaining link yourself as described in section 05.</p>
+    <p><strong>International transfer.</strong> Cloudflare and Anthropic are located outside Korea. When you send a question to the AI tutor or request AI grading, the question, lesson context, up to the last 6 turns of the conversation, form of address (or name), and submitted text are transmitted over the network to servers they operate abroad (including the United States), and install information, usage and cost records, the credit ledger, and, if you use optional sign-in, the hashed account information are stored in Cloudflare data centers abroad. The items, purposes, and retention periods are as listed above and in section 03. Google LLC and Apple Inc. are also located outside Korea. For free users, the ad privacy consent check made at launch and the advertising identifier go to Google; store transaction data for purchases and restores goes to Apple or Google; sign-in data for optional sign-in goes to Apple's or Google's sign-in window; and, when you delete in the app an account created with Apple, the authorization code goes to Apple. This information may be processed on servers those companies operate abroad (including the United States); see section 01 and each company's policy linked in the table above and under "Sign-in providers". If you do not use the AI tutor or AI grading, no question, submission, or form of address is sent. If the app starts in the Pro state, neither the ad SDK nor the ad privacy consent check runs, and if you do not use optional sign-in, no sign-in data is sent. The app does, however, contact our Cloudflare servers to check and download content packs, to check the credit balance, and to check the optional sign-in feature and status, and install information is issued or refreshed at that time. The app does not send learning records to our servers or to the processors above; only a backup file you export yourself and items you choose to share (a certificate or a Hallucination Detective result) go to the app you pick. Tutor chat history is stored on your device only; when you send a question, up to the last 6 turns are sent with it to generate the answer (they are not stored on the server), and when you report an answer, that question and answer are placed in the email. Lessons, quizzes, simulators, and the library content already on your device run on the device.</p>
+
+    <h2><span class="num">05</span>Your Rights</h2>
+    <ul>
+      <li>Change your form of address or name: [Settings - Name &amp; campus] in the app, at any time. If you pick a general form such as "회원님" instead of a name (or, on the English screen, leave the name field blank), no name is sent to the AI tutor.</li>
+      <li>Delete tutor chat history: delete chats one by one in [Settings - Tutor &amp; BYOK - Tutor Uni]. No text is stored on the server, so no separate request is needed.</li>
+      <li>Back up, restore, or delete on-device data: [Settings - Data] lets you back up your learning records to a file or restore them. Uninstalling deletes the learning records, settings, and chat history on the device (for items that remain in the iOS Keychain, see section 03).</li>
+      <li>Delete your own API key: [Settings - Tutor &amp; BYOK - Use my own key] in the app, at any time.</li>
+      <li>Reset the advertising identifier or opt out of personalized ads: iOS [Settings - Privacy &amp; Security - Tracking], Android [Settings - Privacy - Ads].</li>
+      <li>Change your ad privacy consent or choices: free users for whom the [Settings - About - Privacy choices] menu appears (in regions whose regulations require consent or choices, such as the EEA, the United Kingdom, Switzerland, and certain US states, once we have published the prompt for that region) can change their choices there at any time. This menu does not appear in regions where no consent prompt is required, such as Korea, or for Pro users.</li>
+      <li>Sign out (if you use optional sign-in): [Settings - Keep your credits - Sign out on this device] in the app. Only that device is untied from the account; your credits stay in the account and come back when you sign in again.</li>
+      <li>Delete your account (if you use optional sign-in): you can request deletion in three ways - in the app, on the web, or by email - and what is deleted and what remains is listed below them.
+        <ul>
+          <li><strong>In the app</strong> - tap [Settings - Keep your credits - Delete account], then tap "Delete account" in the "Delete your account?" dialog. On iOS, the app confirms with Apple once more before deleting; if that confirmation does not go through, you can choose "Delete without Apple confirmation".</li>
+          <li><strong>On the web</strong> - <a href="https://aiclassroom-api.singongjineung.workers.dev/account/delete" target="_blank" rel="noopener">aiclassroom-api.singongjineung.workers.dev/account/delete</a>. You can use this page even after uninstalling the app. An account created with Google is deleted right there, after you sign in with Google once more to confirm it is you. An account created with Apple cannot be deleted on this page; delete it in the app or request deletion by email. When you press "Start deletion" on this page, your browser loads Google's sign-in script (it connects to Google at that point; merely opening the page does not). The server uses the sign-in token signed by Google only to confirm it is you, does not store it, and does not read the email or name inside it. We keep your IP address only as a hashed value, for up to 2 hours, for rate limiting (for the connection records Cloudflare keeps automatically, see sections 01 and 03).</li>
+          <li><strong>By email</strong> - <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a>. The server does not store email addresses, so we cannot find an account from an email address alone; please include the value shown under [Settings - About - Install ID] in the app (the full value copied with the copy button). We check the account by the install ID and delete it by hand; if credits remain or several devices are tied to the account, we may email you once more to confirm before deleting. Deleting by email has the same result as deleting on the web.</li>
+          <li><strong>What is deleted</strong> - your account in this app (the hash of the account identifier) and the links to every device tied to it. The server actually deletes them, and every device signed in to the account is signed out. Your Apple account or Google account itself is not affected.</li>
+          <li><strong>Remaining credits</strong> - if you delete in the app, the credits left on the account stay on the device that requested the deletion and disappear from other devices signed in to the same account. <strong>If you delete on the web or ask us by email to delete, the remaining credits are not kept on any device and are lost.</strong> If the app is installed, please delete the account in the app.</li>
+          <li><strong>This cannot be undone</strong> - signing in again with the same Apple or Google account starts a new account. Credits lost by deleting on the web or by email do not come back; credits left on a device after deleting in the app move to the new account when you sign in again on that device.</li>
+          <li><strong>Your Pro subscription is not cancelled</strong> - billing continues after the account is deleted. Cancel it yourself in the subscription settings of the App Store or Google Play.</li>
+          <li><strong>What remains</strong> - records of credits bought and used are kept for 5 years as required by Korea's Act on the Consumer Protection in Electronic Commerce, with the link to the account removed, and deleted after that (section 03). Records tied to an install (the install ID, free trial count, and purchase verification records) are not removed by account deletion; to have them deleted, email us with your install ID. The credit ledger and purchase verification records (including store transaction identifiers) are, however, kept for 5 years as described in section 03 even if you ask for deletion. If the account is deleted at your email request, the server cannot revoke Apple's link (token); if the account was created with Apple, please remove this app yourself under Sign in with Apple in your Apple account settings. When you delete, in the app, an account created with Apple, the server asks Apple to revoke this app's link (token) if you completed the Apple confirmation just before deletion; if you skipped the confirmation or the link was not revoked, you can remove this app yourself under Sign in with Apple in your Apple account settings. If this app is still listed under "Third-party apps &amp; services" in your Google Account, you can remove it in your Google Account settings.</li>
+        </ul>
+      </li>
+      <li>Stop notifications: turn them off in [Settings - Reminders] in the app or block them in device settings. All notifications are local, scheduled on the device; there is no push server.</li>
+      <li>Report an AI answer: use the Report button on any answer or the email below; we review reports and improve filters and guidance.</li>
+      <li>Requests to access, correct, delete, or suspend processing, and any question about this policy, can be sent to the contact below and will be answered without delay. Server records are keyed only by a random install ID (and, if you use optional sign-in, the hash of an account identifier), neither of which is linked to a name or email. If you copy the value shown in the app under [Settings - About - Install ID] and include it in your request, we can locate your records. If you have already removed the app and cannot check the install ID, we may need additional confirmation (for example, a credit purchase record). A parent or guardian of a user under 14 may make these requests in the same way. Transaction records kept for 5 years under section 03 are kept for that period even if deletion is requested.</li>
+    </ul>
+
+    <h2><span class="num">06</span>Security Measures</h2>
+    <ul>
+      <li>The service is designed around not collecting personally identifiable information in the first place; the server distinguishes users by a random install ID, and even if you use optional sign-in the account identifier is stored only as a hashed value.</li>
+      <li>For optional sign-in, the server verifies the provider's signature on the sign-in token, its intended audience, its expiry, and a confirmation value (nonce, valid for 10 minutes) issued by the server. Tokens, authorization codes, email addresses, and names are not stored or logged.</li>
+      <li>AI tutor question and answer text is not written to the relay's logs or databases. The call records we write contain only the first 8 characters of the install ID, usage figures, and the request type, time, status code, failure reason, and latency, and no IP address. Separately, the connection records that Cloudflare keeps automatically for each request to the server (the request address, time, and similar details, which may include the IP address and country of the connection) may remain for the retention period of Cloudflare Workers logs (section 03).</li>
+      <li>The install token, install key, and your API key are kept in the iOS Keychain / Android encrypted storage; the token is signed (HMAC-SHA256) to prevent forgery and reissued every 30 days. The server keeps only a hash of the install key.</li>
+      <li>Credit purchases and Pro purchases are verified server-side against Apple-signed transaction data or the Google Play Developer API, with a unique constraint on transaction identifiers to block duplicate grants.</li>
+      <li>Content packs are installed only after their digital signature and hashes are checked.</li>
+      <li>Per-install and per-IP rate limits and a service-wide cost cap guard against automated calls and abuse.</li>
+      <li>All external communication is encrypted with HTTPS, and the app does not allow unencrypted connections.</li>
+      <li>We rely on the security standards of our processors (Cloudflare, Anthropic, Google, and others).</li>
+    </ul>
+
+    <h2><span class="num">07</span>Privacy Contact</h2>
+    <p>
+      Contact — Hasegi Inc. · Development<br />
+      Email — <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a>
+    </p>
+
+    <h2><span class="num">08</span>Remedies for Privacy Violations</h2>
+    <p>Data subjects in Korea may seek dispute resolution or counseling from the following agencies.</p>
+    <div class="table-wrap"><table>
+      <colgroup>
+        <col style="width:42%" />
+        <col style="width:30%" />
+        <col style="width:28%" />
+      </colgroup>
+      <thead>
+        <tr><th>Agency</th><th>Phone</th><th>Website</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Personal Information Dispute Mediation Committee</td>
+          <td>1833-6972 (no area code)</td>
+          <td><a href="https://www.kopico.go.kr" target="_blank" rel="noopener">kopico.go.kr</a></td>
+        </tr>
+        <tr>
+          <td>Privacy Infringement Report Center (KISA)</td>
+          <td>118 (no area code)</td>
+          <td><a href="https://privacy.kisa.or.kr" target="_blank" rel="noopener">privacy.kisa.or.kr</a></td>
+        </tr>
+        <tr>
+          <td>Supreme Prosecutors' Office, Cybercrime Investigation</td>
+          <td>1301 (no area code)</td>
+          <td><a href="https://www.spo.go.kr" target="_blank" rel="noopener">spo.go.kr</a></td>
+        </tr>
+        <tr>
+          <td>Korean National Police Agency, Cyber Bureau</td>
+          <td>182 (no area code)</td>
+          <td><a href="https://ecrm.cyber.go.kr" target="_blank" rel="noopener">ecrm.cyber.go.kr</a></td>
+        </tr>
+      </tbody>
+    </table></div>
+
+    <h2><span class="num">09</span>Changes to This Policy</h2>
+    <p>This policy may be revised when laws, the AI models or processors we use, or security technology change. Revisions are announced in the app or by updating the effective date at the top of this page at least 7 days before they take effect (30 days for changes unfavorable to users). Please check this page from time to time.</p>
+
+    <div class="footer">
+      (c) 2026 Hasegi Inc.<span class="dot"> / </span><br class="mobile-br" />AI 교실 (AI Classroom)
+    </div>
+  </main>
+</body>
+</html>
